@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: theme('colors.bg.DEFAULT');
+  color: theme('colors.text.primary');
+  font-family: 'Inter', 'Hind Siliguri', system-ui, sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a3a32 transparent;
+}
+
+.bn {
+  font-family: 'Hind Siliguri', 'Inter', sans-serif;
+}
+
+.animate-count {
+  font-variant-numeric: tabular-nums;
+}
